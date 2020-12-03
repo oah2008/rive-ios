@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90B118225770EDC00FE6AFE /* color_utils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C96F6E3B25770DDB00F832B2 /* color_utils.hpp */; };
+		C90B118725770F0100FE6AFE /* color_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96F6E3E25770E2D00F832B2 /* color_utils.cpp */; };
 		C9601F2B250C25930032AA07 /* RiveRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9601F2A250C25930032AA07 /* RiveRenderer.mm */; };
 		C9601F69251004780032AA07 /* vec2d.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F2D251004770032AA07 /* vec2d.hpp */; };
 		C9601F6C251004780032AA07 /* color.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F30251004770032AA07 /* color.hpp */; };
@@ -26,7 +28,6 @@
 		C9601F87251004780032AA07 /* blend_mode.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F4E251004780032AA07 /* blend_mode.hpp */; };
 		C9601F88251004780032AA07 /* shape_paint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F4F251004780032AA07 /* shape_paint.hpp */; };
 		C9601F8B251004780032AA07 /* radial_gradient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F52251004780032AA07 /* radial_gradient.hpp */; };
-		C9601F8D251004780032AA07 /* color.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F54251004780032AA07 /* color.hpp */; };
 		C9601F8E251004780032AA07 /* solid_color.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F55251004780032AA07 /* solid_color.hpp */; };
 		C9601F91251004780032AA07 /* path_composer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F58251004780032AA07 /* path_composer.hpp */; };
 		C9601F92251004780032AA07 /* shape_paint_container.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C9601F59251004780032AA07 /* shape_paint_container.hpp */; };
@@ -43,7 +44,6 @@
 		C9601FAF251004950032AA07 /* trim_path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9601FA2251004950032AA07 /* trim_path.cpp */; };
 		C9601FB0251004950032AA07 /* metrics_path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9601FA3251004950032AA07 /* metrics_path.cpp */; };
 		C9601FB3251004950032AA07 /* shape_paint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9601FA7251004950032AA07 /* shape_paint.cpp */; };
-		C9601FB6251004950032AA07 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9601FAA251004950032AA07 /* color.cpp */; };
 		C9601FB9251004950032AA07 /* gradient_stop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9601FAD251004950032AA07 /* gradient_stop.cpp */; };
 		C9601FBA251004950032AA07 /* stroke.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9601FAE251004950032AA07 /* stroke.cpp */; };
 		C98F296F2513FA8B0076E802 /* keyframe_id.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C98F296E2513FA8B0076E802 /* keyframe_id.hpp */; };
@@ -260,7 +260,6 @@
 		C9601F51251004780032AA07 /* fill.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fill.hpp; sourceTree = "<group>"; };
 		C9601F52251004780032AA07 /* radial_gradient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = radial_gradient.hpp; sourceTree = "<group>"; };
 		C9601F53251004780032AA07 /* trim_path.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = trim_path.hpp; sourceTree = "<group>"; };
-		C9601F54251004780032AA07 /* color.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = color.hpp; sourceTree = "<group>"; };
 		C9601F55251004780032AA07 /* solid_color.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = solid_color.hpp; sourceTree = "<group>"; };
 		C9601F56251004780032AA07 /* linear_gradient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linear_gradient.hpp; sourceTree = "<group>"; };
 		C9601F57251004780032AA07 /* stroke_effect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stroke_effect.hpp; sourceTree = "<group>"; };
@@ -293,6 +292,8 @@
 		C9601FAC251004950032AA07 /* shape_paint_mutator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shape_paint_mutator.cpp; sourceTree = "<group>"; };
 		C9601FAD251004950032AA07 /* gradient_stop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gradient_stop.cpp; sourceTree = "<group>"; };
 		C9601FAE251004950032AA07 /* stroke.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stroke.cpp; sourceTree = "<group>"; };
+		C96F6E3B25770DDB00F832B2 /* color_utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = color_utils.hpp; sourceTree = "<group>"; };
+		C96F6E3E25770E2D00F832B2 /* color_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = color_utils.cpp; sourceTree = "<group>"; };
 		C98F296E2513FA8B0076E802 /* keyframe_id.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = keyframe_id.hpp; sourceTree = "<group>"; };
 		C98F29722513FAAE0076E802 /* draw_rules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = draw_rules.hpp; sourceTree = "<group>"; };
 		C98F29732513FAAE0076E802 /* draw_target_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = draw_target_base.hpp; path = generated/draw_target_base.hpp; sourceTree = "<group>"; };
@@ -334,7 +335,6 @@
 		C9C7408924FC4F0400EF9516 /* shape_paint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shape_paint.cpp; sourceTree = "<group>"; };
 		C9C7408A24FC4F0400EF9516 /* fill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fill.cpp; sourceTree = "<group>"; };
 		C9C7408B24FC4F0400EF9516 /* radial_gradient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = radial_gradient.cpp; sourceTree = "<group>"; };
-		C9C7408C24FC4F0400EF9516 /* color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
 		C9C7408D24FC4F0400EF9516 /* shape_paint_mutator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shape_paint_mutator.cpp; sourceTree = "<group>"; };
 		C9C7408E24FC4F0400EF9516 /* gradient_stop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gradient_stop.cpp; sourceTree = "<group>"; };
 		C9C7408F24FC4F0400EF9516 /* stroke.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stroke.cpp; sourceTree = "<group>"; };
@@ -578,6 +578,7 @@
 		C9601F49251004780032AA07 /* paint */ = {
 			isa = PBXGroup;
 			children = (
+				C96F6E3B25770DDB00F832B2 /* color_utils.hpp */,
 				C9601F4A251004780032AA07 /* stroke_cap.hpp */,
 				C9601F4B251004780032AA07 /* gradient_stop.hpp */,
 				C9601F4C251004780032AA07 /* stroke.hpp */,
@@ -588,7 +589,6 @@
 				C9601F51251004780032AA07 /* fill.hpp */,
 				C9601F52251004780032AA07 /* radial_gradient.hpp */,
 				C9601F53251004780032AA07 /* trim_path.hpp */,
-				C9601F54251004780032AA07 /* color.hpp */,
 				C9601F55251004780032AA07 /* solid_color.hpp */,
 				C9601F56251004780032AA07 /* linear_gradient.hpp */,
 				C9601F57251004780032AA07 /* stroke_effect.hpp */,
@@ -755,12 +755,12 @@
 		C9C7408624FC4F0400EF9516 /* paint */ = {
 			isa = PBXGroup;
 			children = (
+				C96F6E3E25770E2D00F832B2 /* color_utils.cpp */,
 				C9C7408724FC4F0400EF9516 /* solid_color.cpp */,
 				C9C7408824FC4F0400EF9516 /* linear_gradient.cpp */,
 				C9C7408924FC4F0400EF9516 /* shape_paint.cpp */,
 				C9C7408A24FC4F0400EF9516 /* fill.cpp */,
 				C9C7408B24FC4F0400EF9516 /* radial_gradient.cpp */,
-				C9C7408C24FC4F0400EF9516 /* color.cpp */,
 				C9C7408D24FC4F0400EF9516 /* shape_paint_mutator.cpp */,
 				C9C7408E24FC4F0400EF9516 /* gradient_stop.cpp */,
 				C9C7408F24FC4F0400EF9516 /* stroke.cpp */,
@@ -1051,6 +1051,7 @@
 			files = (
 				C9601F6C251004780032AA07 /* color.hpp in Headers */,
 				C9C741D224FC4F0500EF9516 /* points_path.hpp in Headers */,
+				C90B118225770EDC00FE6AFE /* color_utils.hpp in Headers */,
 				C9C741F424FC510200EF9516 /* Rive.h in Headers */,
 				C9601F8E251004780032AA07 /* solid_color.hpp in Headers */,
 				C9C741DF24FC4F0500EF9516 /* artboard.hpp in Headers */,
@@ -1083,7 +1084,6 @@
 				C9601F98251004780032AA07 /* cubic_vertex.hpp in Headers */,
 				C9601F75251004780032AA07 /* stroke.hpp in Headers */,
 				C9C7419424FC4F0500EF9516 /* component_base.hpp in Headers */,
-				C9601F8D251004780032AA07 /* color.hpp in Headers */,
 				C9601F9D251004780032AA07 /* parametric_path.hpp in Headers */,
 				C9C741A324FC4F0500EF9516 /* core_string_type.hpp in Headers */,
 				C9C7417D24FC4F0500EF9516 /* linear_gradient_base.hpp in Headers */,
@@ -1285,6 +1285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90B118725770F0100FE6AFE /* color_utils.cpp in Sources */,
 				C9C7414124FC4F0500EF9516 /* keyframe_color.cpp in Sources */,
 				C9C7414F24FC4F0500EF9516 /* radial_gradient.cpp in Sources */,
 				C9601F2B250C25930032AA07 /* RiveRenderer.mm in Sources */,
@@ -1296,7 +1297,6 @@
 				C9C7413B24FC4F0500EF9516 /* core_color_type.cpp in Sources */,
 				C9C7416924FC4F0500EF9516 /* root_bone.cpp in Sources */,
 				C9C7413E24FC4F0500EF9516 /* component.cpp in Sources */,
-				C9601FB6251004950032AA07 /* color.cpp in Sources */,
 				C9C7413F24FC4F0500EF9516 /* node.cpp in Sources */,
 				C9C7415E24FC4F0500EF9516 /* path_composer.cpp in Sources */,
 				C9C7413924FC4F0500EF9516 /* core_double_type.cpp in Sources */,
